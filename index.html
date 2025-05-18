@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>American® Airlines© Helpdeskʬ | +1-888-829-1117 24/7 Airline Support*</title>
+<style>
+     	/* Internal CSS */
+     	body {
+         	font-family: 'Arial', sans-serif;
+         	line-height: 1.6;
+         	color: #333;
+         	margin: 0;
+         	padding: 0;
+         	background-color: #f5f5f5;
+     	}
+
+     	header {
+         	background-color: #005d99;
+         	color: white;
+         	padding: 20px 0;
+         	text-align: center;
+     	}
+
+     	.logo {
+         	max-width: 250px;
+         	margin-bottom: 15px;
+     	}
+
+     	.container {
+         	width: 85%;
+         	max-width: 1200px;
+         	margin: 0 auto;
+         	padding: 20px;
+     	}
+
+     	.hero {
+         	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://example.com/American-Airlines-ship.jpg');
+         	background-size: cover;
+         	background-position: center;
+         	color: white;
+         	padding: 100px 20px;
+         	text-align: center;
+         	margin-bottom: 30px;
+     	}
+
+     	h1 {
+         	font-size: 2.5em;
+         	margin-bottom: 20px;
+     	}
+
+     	h2 {
+         	color: #005d99;
+         	border-bottom: 2px solid #005d99;
+         	padding-bottom: 10px;
+         	margin-top: 40px;
+     	}
+
+     	.contact-box {
+         	background-color: white;
+         	border-radius: 8px;
+         	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+         	padding: 30px;
+         	margin: 30px 0;
+         	text-align: center;
+     	}
+
+     	.phone-number {
+         	font-size: 2em;
+         	color: #005d99;
+         	font-weight: bold;
+         	margin: 15px 0;
+     	}
+
+     	.hours {
+         	font-style: italic;
+         	color: #666;
+     	}
+
+     	.faq-item {
+         	margin-bottom: 20px;
+     	}
+
+     	.faq-question {
+         	font-weight: bold;
+         	color: #005d99;
+     	}
+
+     	footer {
+         	background-color: #333;
+         	color: white;
+         	text-align: center;
+         	padding: 20px 0;
+         	margin-top: 50px;
+     	}
+
+     	@media (max-width: 768px) {
+         	.container {
+             	width: 95%;
+         	}
+
+         	h1 {
+             	font-size: 1.8em;
+         	}
+
+         	.phone-number {
+             	font-size: 1.5em;
+         	}
+     	}
+      	/* Call Now Popup styling */
+     	.modal {
+         	display: none;
+         	position: fixed;
+         	z-index: 1;
+         	left: 0;
+         	top: 0;
+         	width: 100%;
+         	height: 100%;
+         	background-color: rgba(0, 0, 0, 0.4);
+         	padding-top: 60px;
+     	}
+ 
+    	.modal-content {
+         	background-color: white;
+         	margin: 5% auto;
+         	padding: 20px;
+         	border: 1px solid #888;
+         	width: 80%;
+         	max-width: 400px;
+         	text-align: center;
+         	border-radius: 8px;
+         	animation: modalFadeIn 1s ease-in-out;
+     	}
+ 
+    	.close {
+         	color: #aaa;
+         	font-size: 28px;
+         	font-weight: bold;
+         	position: absolute;
+         	top: 10px;
+         	right: 25px;
+         	transition: 0.3s;
+     	}
+ 
+    	.close:hover,
+     	.close:focus {
+         	color: black;
+         	text-decoration: none;
+         	cursor: pointer;
+     	}
+ 
+    	.call-button {
+         	background-color: #2e3a87;
+         	color: white;
+         	padding: 15px 30px;
+         	font-size: 1.2rem;
+         	border: none;
+         	border-radius: 5px;
+         	cursor: pointer;
+         	margin-top: 20px;
+         	text-decoration: none;
+     	}
+     	.call{
+         	padding:15px;
+     	}
+     	/* Animations */
+     	@keyframes fadeIn {
+         	0% {
+             	opacity: 0;
+         	}
+         	100% {
+             	opacity: 1;
+         	}
+     	}
+ 
+    	@keyframes zoomIn {
+         	0% {
+             	transform: scale(1.1);
+             	opacity: 0;
+         	}
+         	100% {
+             	transform: scale(1);
+             	opacity: 1;
+         	}
+     	}
+ 
+    	@keyframes slideIn {
+         	0% {
+             	transform: translateY(20px);
+             	opacity: 0;
+         	}
+         	100% {
+             	transform: translateY(0);
+             	opacity: 1;
+         	}
+     	}
+ 
+    	@keyframes modalFadeIn {
+         	0% {
+             	opacity: 0;
+         	}
+         	100% {
+             	opacity: 1;
+         	}
+     	}
+</style>
+</head>
+<body>
+<header>
+<img src="https://example.com/American-Airlines-logo.png" alt="Contact :+1-888-829-1117" class="logo">
+<h1>American® Airlines© Helplineʬ</h1>
+<p>24/7 Support for All Your Airline Needs</p>
+</header>
+
+<div class="hero">
+<div class="container">
+<h2>We're Here to Help</h2>
+<p>Whether you're preparing for your dream vacation or currently onboard, our dedicated support team is available around the clock to assist you.</p>
+</div>
+</div>
+
+<div class="container">
+<div class="contact-box">
+<h2>Contact American Airlines Support</h2>
+<p>For immediate assistance with bookings, onboard services, or general inquiries:</p>
+<div class="phone-number">1-888-American-Airlines (+1-888-829-1117)</div>
+<p class="hours">Available 24 hours a day, 7 days a week</p>
+<p>International callers: +1-888-829-1117</p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<p class="faq-question">What services does the American Airlines helpline provide?</p>
+<p>Our helpline assists with booking modifications, cancellations, onboard services, emergency contacts, special needs accommodations, and general Airline information.</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-question">Can I get help with my existing reservation?</p>
+<p>Yes, our representatives can assist with all aspects of your existing reservation including room upgrades, dining preferences, excursion bookings, and special requests.</p>
+</div>
+
+<div class="faq-item">
+<p class="faq-question">What information should I have ready when I call?</p>
+<p>Please have your reservation number, sailing date, ship name, and any relevant details about your inquiry ready to help us serve you more efficiently.</p>
+</div>
+
+<h2>Additional Support Options</h2>
+<p>For non-urgent inquiries, you may also contact us through:</p>
+<ul>
+<li>Email: customer.support@AmericanAirlines.com</li>
+<li>Live Chat: Available on our official website during business hours</li>
+<li>Twitter: @AmericanAirlines</li>
+</ul>
+
+<h2>Emergency Assistance at Sea</h2>
+<p>If you're currently onboard and need emergency assistance, please contact the Guest Services desk immediately or use the emergency phone in your stateroom.</p>
+<img src="https://example.com/American-Airlines-ship-interior.jpg" alt="American Airlines Ship Guest Services" style="max-width:100%; height:auto; margin:20px 0; border-radius:8px;">
+</div>
+
+<footer>
+<div class="container">
+<p>&copy; 2023 American Airlines International. All rights reserved.</p>
+<p>This is an independent information resource and not affiliated with American Airlines Airlines Ltd.</p>
+</div>
+</footer>
+<div id="callModal" class="modal">
+<div class="modal-content">
+<span class="close" id="closeModal">&times;</span>
+<h2>Need Help? Call Us Now!</h2>
+<p>We're here to assist you.</p>
+<div class=call>
+<a href="tel:+1-888-829-1117" class="call-button">Call Now</a></div>
+</div>
+</div>
+<script>
+     	// Get the modal
+     	var modal = document.getElementById('callModal');
+ 
+    	// Get the close button
+     	var closeModal = document.getElementById('closeModal');
+ 
+    	// Show the modal on page load
+     	window.onload = function() {
+         	modal.style.display = 'block';
+     	}
+ 
+    	// When the user clicks on the close button, close the modal
+     	closeModal.onclick = function() {
+         	modal.style.display = 'none';
+     	}
+ 
+    	// When the user clicks anywhere outside the modal, close it
+     	window.onclick = function(event) {
+         	if (event.target === modal) {
+             	modal.style.display = 'none';
+         	}
+     	}
+</script>
+</body>
+</html>
+
